@@ -13,8 +13,4 @@ def Merge():
 
 def Common():
     print(DictionarieOne.keys() & DictionarieTwo.keys())
-    res = DictionarieOne.items() & DictionarieTwo.items()
-    for i in sorted(res):
-        print(i[0])
-
 Common()
