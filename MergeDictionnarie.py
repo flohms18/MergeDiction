@@ -6,3 +6,9 @@ DictionarieTwo = {
     'c': 3,
     'd': 4
 }
+
+def Merge():
+    DictionarieOne.update(DictionarieTwo)
+    print(DictionarieOne)
+
+Merge()
